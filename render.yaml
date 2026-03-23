@@ -2,7 +2,7 @@ services:
   - type: web
     name: committee-api
     runtime: node
-    rootDir: services/api
+    rootDir: api
     plan: free
     buildCommand: npm ci && npm run build
     startCommand: npm run start
